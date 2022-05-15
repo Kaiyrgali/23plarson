@@ -1,22 +1,19 @@
-https://plarson.ru/about/job/front-end/
+# Test Task
+## for the position Frontend developer
+![N|Solid](https://cutt.ly/WHz2qUc)
 
-Front-end программист
-Для сборки сайта на веб-платформе Plarson требуется умение верстать шаблоны и настраивать SQL запросы. Мы используем следующие технологии и фреймворки в работе:
+Original Task text - https://plarson.ru/about/job/front-end/
 
-HTML
-CSS3
-Less
-JavaScript
-SQL
-Если вы знакомы с этими технологиями и хорошо в них разбираетесь, мы с удовольствием рассмотрим ваше резюме. Также мы просим выполнить тестовые задания.
+### Solution
+#### Task 1
+ - CSS styles are minimal, but repeat the main colors of the corporate website https://plarson.ru/;
+- the height of the Logo element (70 pixels) is bigger than the minimum height of the Header (50 pixels) to simulate the situation (Header.css);
+- dependence of the middle part of the window on the height of the Header and Footer solved using the useState hook (App.jsx);
+- build using Babel browserlist targets: {"chrome": "80", "edge": "79", "firefox": "72", "safari": "13.1"}
 
-Тестовое задание по HTML/CSS
+#### Task 2
+- the file 'sql/month.sql' contains the query;
+- the file 'sql/month.jpg' shows that the query is working;
 
-Вёрстка должна работать в браузерах Internet Explorer, Google Chrome, Mozilla Firefox, Apple Safari не старше 2 лет. Решение заадания прислать на почту support@plarson.ru с темой «Вакансия верстальщика». JavaScript не использовать.
-
-В более сложном варианте сделать так, чтобы шапка и подвал могли растягиваться под контент (т.е. есть только min-height), а центральная часть это учитывала.
-
-Код CSS должен быть необходимым и достаточным (не содержать лишних сущностей), разметка кода и комментарии имеют значение.
-
-Тестовое задание по SQL(MySQL)
-Составить запрос, который будет выдавать результат в виде таблицы (а не строки!) из 12 строк, в каждой строке 2 колонки, в одной колонке месяц текущего года, в другой — количество дней в месяце. В запросе не использовать существующие таблицы из БД, в том числе временные, т.е. запрос должен работать сразу из любой консоли sql.
+#### Task 3
+- alternative to window.onload solved via readystatechange event (App.jsx).

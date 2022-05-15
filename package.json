@@ -25,6 +25,7 @@
     ]
   },
   "browserslist": {
+    
     "production": [
       ">0.2%",
       "not dead",
@@ -35,5 +36,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-template-literals": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-cli": "^6.26.0"
   }
 }

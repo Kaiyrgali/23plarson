@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["@babel/preset-env",
+      { 
+        "targets": [
+          "Chrome > 79",
+          "Edge > 78",
+          "Firefox > 71",
+          "Safari > 13"
+        ],
+        "corejs": 3,
+        "debug": true,
+        "useBuiltIns": "usage",
+        "modules": false
+      }],
+    ["@babel/preset-react"]
+  ]
+}
