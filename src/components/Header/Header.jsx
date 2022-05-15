@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Logo from '../Logo/Logo';
 import './Header.css';
 
 function Header() {
@@ -10,6 +9,9 @@ function Header() {
       </Link>
       <Link to="#">
         <span className="Header-Nav">Setting</span>
+      </Link>
+      <Link to="#">
+        <span className="Header-Nav">Contacts</span>
       </Link>
     </nav>
   );

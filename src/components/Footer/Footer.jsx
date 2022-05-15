@@ -4,7 +4,15 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="Footer">
-      <textarea className='Header-Textarea' placeholder='Type your message ...' />
+      <textarea
+        name="message"
+        className='Footer-Textarea'
+        placeholder='Type your message ...'
+        rows="4"
+        cols="30"
+        autoFocus
+      />
+      <input className='Footer-Input' type="submit" value="Отправить" />
     </div>
   );
 }

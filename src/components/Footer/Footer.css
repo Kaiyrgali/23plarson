@@ -1,7 +1,33 @@
 .Footer {
-  /* position: absolute; */
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
   background-color: #141619;
-  height: 100px;
-  /* margin-top: 900px; */
-  /* top: 900px; */
+  min-height: 100px;
+  display: flex;
+  gap: 10px;
+}
+
+.Footer-Textarea {
+  resize: none;
+  outline: none;
+  padding: 3px;
+}
+
+.Footer-Input {
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  background-color: #ff1e00;
+  border: 1px solid #ff1e00;
+  /* border: none; */
+  font-weight: 400;
+  padding: 5px;
+  box-shadow: 0 2px 6px #921c1c;
+  transition: all 0.25s ease-in-out;
+}
+.Footer-Input:hover {
+      transform: translate(0, -4px);
 }

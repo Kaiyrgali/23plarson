@@ -1,10 +1,14 @@
-
+import { users } from '../../services/users';
 import './Aside.css';
 
 function Aside() {
-  return (
+  const userItem = users.map((user, i) => { 
+    return <p key={i} className="Aside-User">{user}</p>
+  })
+  
+    return (
     <div className="Aside">
-      ASiDE USERS
+      {userItem}
     </div>
   );
 }
