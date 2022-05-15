@@ -1,12 +1,11 @@
-import { users } from '../../services/users';
+import React from 'react';
+import users from '../../services/users';
 import './Aside.css';
 
 function Aside() {
-  const userItem = users.map((user, i) => { 
-    return <p key={i} className="Aside-User">{user}</p>
-  })
-  
-    return (
+  const userItem = users.map((user) => <p key={user} className="Aside-User">{user}</p>);
+
+  return (
     <div className="Aside">
       {userItem}
     </div>

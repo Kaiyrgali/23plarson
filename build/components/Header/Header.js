@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
@@ -11,11 +12,11 @@ function Header() {
     src: "./logo.svg",
     alt: "Logo"
   })), /*#__PURE__*/React.createElement(Link, {
-    to: "#"
+    to: "#top"
   }, /*#__PURE__*/React.createElement("span", {
     className: "Header-Nav"
   }, "Setting")), /*#__PURE__*/React.createElement(Link, {
-    to: "#"
+    to: "#top"
   }, /*#__PURE__*/React.createElement("span", {
     className: "Header-Nav"
   }, "Contacts")));

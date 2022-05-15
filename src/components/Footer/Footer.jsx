@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './Footer.css';
 
 function Footer() {
@@ -6,13 +6,16 @@ function Footer() {
     <div className="Footer">
       <textarea
         name="message"
-        className='Footer-Textarea'
-        placeholder='Type your message ...'
+        className="Footer-Textarea"
+        placeholder="Type your message ..."
         rows="4"
         cols="30"
-        autoFocus
       />
-      <input className='Footer-Input' type="submit" value="Отправить" />
+      <input
+        className="Footer-Input"
+        type="submit"
+        value="Send"
+      />
     </div>
   );
 }

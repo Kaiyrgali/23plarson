@@ -1,6 +1,9 @@
 {
   "name": "23plarson",
   "version": "0.1.0",
+  "description": "Test task for Plarson company",
+  "main": "index.jsx",
+  "author": "Bekkali Kaiyrgali <kairgalibekkali@gmail.com>",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -25,7 +28,6 @@
     ]
   },
   "browserslist": {
-    
     "production": [
       ">0.2%",
       "not dead",
@@ -43,6 +45,12 @@
     "@babel/plugin-transform-template-literals": "^7.16.7",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
   }
 }

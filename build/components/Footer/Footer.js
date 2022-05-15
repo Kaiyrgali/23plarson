@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css';
 
 function Footer() {
@@ -8,12 +9,11 @@ function Footer() {
     className: "Footer-Textarea",
     placeholder: "Type your message ...",
     rows: "4",
-    cols: "30",
-    autoFocus: true
+    cols: "30"
   }), /*#__PURE__*/React.createElement("input", {
     className: "Footer-Input",
     type: "submit",
-    value: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C"
+    value: "Send"
   }));
 }
 

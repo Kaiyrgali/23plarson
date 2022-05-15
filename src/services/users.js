@@ -1,4 +1,4 @@
-export const users = [
+const users = [
   'Alexander',
   'Alfred',
   'Andrew',
@@ -56,4 +56,6 @@ export const users = [
   'Louis',
   'Lucas',
   'Luke',
-]
+];
+
+export default users;

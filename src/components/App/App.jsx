@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Aside from '../Aside';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -8,7 +8,6 @@ import './App.css';
 function App() {
   const initialHeight = { height: `${(window.innerHeight - 150)}px` };
   const [style, setStyle] = useState(initialHeight);
-  
   document.onreadystatechange = function () {
     if (document.readyState === 'complete') {
       const headerHeight = document.querySelector('.Header').clientHeight;
@@ -17,7 +16,7 @@ function App() {
       setStyle(containerHeight);
       alert('Page loaded');
     }
-  }
+  };
 
   return (
     <div className="App">
